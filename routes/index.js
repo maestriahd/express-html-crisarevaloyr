@@ -18,6 +18,7 @@ router.get('/', function(req, res) {
     { title: 'Express',
       saludo: 'hola a todos',
       numero: 1,
+      prueba: 'hello',
       gato: 'https://www.mundogato.net/wp-content/uploads/normas-de-higiene-en-los-gatos-1-485x300.jpg'
     }
   );
