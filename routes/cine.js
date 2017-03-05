@@ -4,9 +4,9 @@ var router = express.Router();
 
 router.get('/', function(req, res) {
   res.render('cine',
-    { title: 'Circulación de cine',
-    texto: 'investigación hd',
-    foto: 'https://www.mundogato.net/wp-content/uploads/normas-de-higiene-en-los-gatos-1-485x300.jpg'
+    { title: 'Las rutas de la circulación para el cine latinoamericano alternativo',
+    texto: 'La investigación pretende crear una plataforma web que informe a los nuevos creadores sobre las rutas de circulación de sus obras en espacios virtuales y físicos',
+    foto: 'http://i.giphy.com/LNgKEmv1ZCdeE.gif'
   }
   );
 });
